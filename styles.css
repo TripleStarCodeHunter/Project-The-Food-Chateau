@@ -1,0 +1,262 @@
+.new{
+    background-size: cover;
+}
+.menuimg{
+    width:100%;
+    border-radius: 0.651vw;
+    height:80%;
+}
+.menu{
+    height: 46.549vw;        
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-left: 1.953vw;
+    margin-left: 1.628vw;
+    margin-right: 1.628vw;
+    box-shadow: 0.260vw 0.260vw 0.977vw black;
+    padding-right: 1.302vw;
+}
+.menuhead{
+    text-align: center;
+    font-size: 2.930vw;
+    padding-top: 0.326vw;
+    padding-bottom: 0.326vw;
+    font-family: "Cinzel Decorative";
+}
+a{
+    text-decoration: none;
+}
+.bgimage{
+    background-image: url("https://cdn.wallpapersafari.com/82/37/Vos3IM.png");
+    background-size: cover;
+}
+.head{
+    font-size: 3.060vw;
+    text-align: center;
+    padding: 0.195vw;
+    background-color: #f6f6f6;
+    position: relative;
+    height:9.766vw;
+    }
+.navbar{
+    background-color: black;
+    color:white;
+    width:100%;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.326vw;
+    padding-bottom: 0.326vw;
+    font-size: 1.172vw;
+    z-index: 2;
+}
+.conbar{
+    padding-top: 1.953vw;
+    padding-bottom: 2.604vw;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #af8039;
+    color:white;
+    font-size:1.042vw;
+    width:100%;
+    font-family: 'Open Sans';
+}
+.conbar a{
+    text-decoration: none;
+    color:white;
+}
+.conbar a:hover{
+    text-decoration: underline;
+}
+.container{
+    background-attachment: fixed;
+    background-size: cover;
+}
+.info{
+    border-collapse: collapse;
+    border: 0.130vw solid black;
+    margin:0.326vw;
+    border-radius:0.651vw;
+    box-shadow: 0.260vw 0.260vw 0.977vw black;
+    font-size: 1.953vw;
+    padding-left: 3.255vw;
+    text-align: center;
+    padding: 0.651vw;
+    background-color: #f0d9cc;
+}
+.left{
+    font-size: 6.510vw;
+    color:white;
+    text-shadow: 0.260vw 0.260vw 0.977vw black; 
+    padding-left: 3.255vw;
+    padding-top: 1.953vw;
+}
+.explore{
+    background-color: #be8b9d;
+    color:white;
+    font-size:2.604vw;
+    border-radius: 0.651vw;
+    padding:0.521vw;
+    width:100%;
+    text-shadow: none;
+    box-shadow: 0.260vw 0.260vw 0.977vw black;
+    border:0.260vw solid #be8b9d;
+    
+}
+.right{
+    font-size: 6.510vw;
+    color:white;
+    text-align:right;
+    text-shadow: 0.260vw 0.260vw 0.977vw black; 
+    padding-right: 3.255vw;
+    padding-top: 1.953vw;
+}
+.navbar a:visited,a:link{
+    text-decoration: none;
+    color:white;
+}
+.navbar a:hover{
+    color:black;
+    background-color: white;
+    border-radius:3.581vw;
+}
+*{
+    margin:0px;
+}
+.slideshow-container {
+    width:80%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    box-shadow: 0.260vw 0.260vw 0.977vw black;
+}
+.mySlides {
+    display:none;
+}
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    margin-top: -1.432vw;
+    padding: 1.042vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.172vw;
+    transition: 0.6s ease;
+    border-radius: 0 0.195vw 0.195vw 0;
+    user-select: none;
+    position: absolute;
+}
+.next {
+    right: 0%;
+    border-radius: 0.195vw 0 0 0.195vw;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.dot {
+    cursor: pointer;
+    height: 0.977vw;
+    width: 0.977vw;
+    margin: 0 0.130vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.active, .dot:hover {
+    background-color: #717171;
+  }
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.dish{
+    font-size: 2.279vw;
+    
+    font-family:MonteCarlo;
+    font-weight: bold;
+}
+.desc{
+    font-size: 1.432vw;
+    font-family: "Open Sans";
+    /* line-height: 20px; */
+}
+
+.fa-facebook-f{
+    color:white;
+}
+.fa-facebook-f:hover{
+    color:#4267B2
+}
+.fa-twitter{
+    color:white;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+.y{
+    color: white;
+}
+.y:hover {
+    
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+.img2{
+    height:34.245vw;
+    /* width:800px; */
+    width:50vw;
+}
+.abouthead{
+    margin-top:1.953vw;
+    margin-left:1.953vw;
+    font-size:2.604vw;
+    margin-bottom: 0.326vw;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.rev{
+    display:flex;
+    justify-content: space-evenly;
+    width:60%;
+    margin:auto;
+    margin-top:2.604vw;
+    position: relative;
+}
+.review{
+    border:0.130vw thin black;
+    height:22.786vw;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0.130vw 0.130vw 0.326vw black;
+    width:30%;
+    color:black;
+}
+.revdesc{
+    margin-top: 0.651vw;
+    font-size: 1.497vw;
+    padding-left: 0.651vw;
+}
+.revtext{
+    padding-left: 0.651vw;
+    padding-right: 0.326vw;
+    font-size: 1.042vw;
+}
+.dots {
+    
+    position:absolute ;
+    margin-top: -1.5vw;
+    left: 50%;
+    margin-left: -3.255vw;
+  }
