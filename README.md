@@ -10,4 +10,5 @@ https://thefoodchateau.netlify.app/home
  
  **********************************************************************
 Any resemblance to existing organisations/locations is entirely coincidental.
+
 All images used belong to their respective owners.
